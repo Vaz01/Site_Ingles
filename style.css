@@ -1,0 +1,846 @@
+*{
+   margin: 0;
+   border: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+
+body {
+   background-color: #ffffff;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   
+}
+header{
+   background-image: url(/img/fundo.png);
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+  
+}
+
+/* Estilos do Cabeçalho */
+.cabecalho {
+   color: #bfdbfe;
+   padding: 20px 0;
+   font-family: system-ui;
+   font-weight: 500;
+   font-size: 16px;
+}
+
+.cabecalho .container {
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.comece li a{
+ 
+   justify-content: end;
+   text-align: end;
+}
+
+.cabecalho .logo a {
+   color: #bfdbfe; /* Cor do logo (azul) */
+   text-decoration: none;
+   font-size: 1.5em;
+   font-weight: bold;
+}
+
+.cabecalho .menu ul, li {
+  
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+}
+
+.cabecalho .menu li {
+   margin-left: 20px;
+
+}
+
+.cabecalho .menu li:first-child {
+   margin-left: 0;
+}
+
+.cabecalho .menu a {
+   color: white; /* Cor dos links do menu (azul) */
+   text-decoration: none;
+   padding: 8px 12px;
+   border-radius: 5px;
+   transition: color 0.3s ease;
+   line-height: 24px;
+}
+
+.cabecalho .menu a:hover {
+  color: #a8a8a894; /* Um azul bem claro no hover */
+ 
+}
+
+
+/* Estilos da Seção Principal */
+.principal {
+   
+   margin-top: 10%;
+   text-align: left;
+   justify-content: left;
+   margin-left: auto;
+   
+    
+   
+}
+
+.principal .container {
+   max-width: 800px; /* Largura máxima menor para o conteúdo principal */
+}
+
+.principal .destaque h1 {
+   font-size: 3.5em;
+   line-height: 1.2; /* Reduzir a altura da linha */
+   margin-bottom: 20px;
+   color: #ffffff; /* Cor do título (azul) */
+}
+
+
+.principal .destaque p {
+   font-family: system-ui;
+   font-size: 1.3em;
+   line-height: 1.3;
+   margin-bottom: 5px;
+   color: #bfdbfe;
+}
+
+.principal .botoes-destaque a {
+   display: inline-block;
+   padding: 12px 25px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   transition: background-color 0.3s ease;
+   margin-right: 10px; /* Espaçamento entre os botões */
+}
+
+.principal .botoes-destaque .botao-principal {
+   margin-top: 20px;
+   font-family: system-ui;
+   font-weight: 500;
+   background-color: #eab308;
+   color: #1e3a8a;
+   transition: background-color 0.3s ease;
+}
+
+.principal .botoes-destaque .botao-principal:hover {
+   background-color: #d89802;
+}
+
+.principal .botoes-destaque .botao-secundario {
+   background-color: #ffffff; /* Azul bem claro para o botão secundário */
+   color: #1976D2;
+   border: 2px solid #1976D2;
+}
+
+.principal .botoes-destaque .botao-secundario:hover {
+   background-color: #ffffff; /* Azul ainda mais claro no hover */
+}
+
+/* Estilos do Rodapé Inferior */
+.rodape-inferior {
+   padding: 30px 0;
+}
+
+.rodape-inferior .container {
+   display: flex;
+   align-items: center;
+}
+
+.rodape-inferior .alunos-presentes {
+   display: flex;
+   align-items: center;
+}
+
+.rodape-inferior .alunos-presentes .icones {
+   display: flex;
+   margin-right: 15px;
+}
+
+.rodape-inferior .alunos-presentes .icones span {
+   display: block;
+   width: 20px;
+   height: 20px;
+   background-color: #1976D2; /* Azul para os ícones */
+   border-radius: 50%;
+   margin-left: 5px;
+}
+.parte1 > h1{
+   font-weight: bold;
+   font-size: 32px;
+   font-family: system-ui;
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 15px;
+}
+.parte1 > p{
+   font-size: 18px;
+   font-weight: 400;
+   text-align: center;
+   font-family: system-ui;
+   color: #4b5563;
+   line-height: 28px;
+   
+} 
+
+.btn{
+
+   font-family: system-ui;
+   background-color: #2563eb;
+   padding: 10px 20px;
+   border:none;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+.btn:hover{
+   background-color: #1b449c;
+ }
+
+.btn a{
+   text-decoration: none;
+   color:white
+}
+
+
+/* card abaixo*/
+
+.container-one{
+   
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.card{
+   margin-bottom: 20px;
+   margin-top: 30px;
+   gap: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   width: 372px;
+   height: 535px;
+   color: rgba(116, 116, 116, 0.055);
+}
+
+h2{
+   color: #000000;
+   margin-top: 30px;
+   line-height: 28px;
+   text-align: left;
+   margin-left: 20px;
+   font-size: 1.3rem;
+   font-family: system-ui;
+   font-weight: bold;
+   
+}
+.frase{
+   margin-top: 20px;
+   color: #4b5563;
+   font-weight: 400;
+   line-height: 24px;
+   font-size: 16px;
+   font-family: system-ui;
+   margin-left: 20px;
+   text-emphasis: none;
+ 
+}
+.nivel{
+   margin-top: 10px;
+   font-size: 14px;
+   font-family: system-ui;
+   font-weight: 500;
+   color: #1e40af;
+   background-color: #dbeafe;
+   border: 10px;
+   margin-left: 20px;
+   width: 100px;
+   border-radius: 15px 15px ;
+
+}
+
+.icons{
+   margin-top: 30px;
+   font-weight: 400;
+   font-family: system-ui;
+   color: #4b5563;
+   display: inline-table;
+   display: flex;
+   margin-left: 20px;
+   gap: 50px;
+   
+   
+}
+
+.medalha{
+   margin-top: 30px;
+   font-weight: 400;
+   font-family: system-ui;
+   color: #4b5563;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-left: 15px;
+}
+
+.aprender{
+   font-family: system-ui;
+   margin-top: 30px;
+   color: #000000;
+   margin-left: 20px;
+}
+.matricula{
+
+   margin-top: 20px;
+   text-align: center;
+}
+
+.matricula button{
+   cursor: pointer;
+   font-family: system-ui;
+   color: white;
+  background-color: #2059f7;
+   padding: 9px;
+   min-width: 80%;
+   border-radius: 10px;
+   transition: background-color .30s ease;
+}
+.matricula button:hover{
+   background-color: #1b449c;
+}
+
+
+
+/* depoimnete*/
+
+.carousel-container {
+   
+  padding: 1000px;
+  width: 100%;
+  background-color:  #EFF6FF;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: sans-serif;
+}
+.carousel-container h2 {
+   font-size: 36px;
+   font-family: system-ui;
+   font-weight: bold;
+   text-align: center;
+   margin: 20px auto;
+}
+.carousel-container p {
+   color: #4b5563;
+   font-size: 18px;
+   font-family: system-ui;
+   font-weight: 400;
+   text-align: center;
+   margin: 20px auto;
+}
+.quote{
+   font-family: system-ui;
+   font-style: italic;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slides {
+  width: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+transition: opacity 0.6s ease-in-out;
+  display: none;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.slide.active {
+  display: block;
+  animation: fade 0.5s ease-in-out;
+}
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.slide img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.slide h3 {
+  margin: 0.3rem 0 0.2rem;
+  font-family: system-ui;
+}
+
+.slide .info {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.slide .info span {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.slide .quote {
+  font-style: italic;
+  margin-top: 1rem;
+  color: #333;
+}
+
+.arrow {
+   color: #1976D2;
+   border-radius: 100%;
+   background-color: #ffffff;
+   border: none;
+   font-size: 2rem;
+   cursor: pointer;
+   padding: 0 1rem;
+   user-select: none;
+}
+
+.arrow:hover {
+  color: #000;
+}
+
+
+.container5{
+  
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.card-5{
+   margin:10px;
+   box-shadow: -8px 0px 20px -25px rgb(0, 0, 0); 
+   width: 372px;
+   height: 535px;
+   background-color: white; 
+}
+
+.card-5>img{
+   width: 100%;
+   display: flex;
+   border-radius: 20px 20px;
+}
+
+.text h2{
+   color: #000000;
+   margin-top: 9px;
+   line-height: 30px;
+   text-align: left;
+   margin-left: 10px;
+   font-size: 1.2rem;
+   
+   
+}
+
+.text p{
+   margin-top: 20px;
+  font-family: system-ui;
+  font-weight: 300;
+  line-height: 24px;
+  margin-left: 20px;
+  
+}
+.icon-blog{
+   
+   margin-top: 20px;
+   text-align: end;
+   font-size: 40px;
+}
+
+
+/* Estilos do menu hamburguer em telas pequenas */
+.menu-hamburguer {
+   display: none;
+   font-size: 1.5em;
+   cursor: pointer;
+   color: white;
+   z-index: 20; /* Garante que o ícone fique acima do menu mobile */
+}
+
+.menu-mobile {
+   display: none;
+   position: absolute; /* Posiciona o menu relativamente ao elemento pai (body) */
+   top: 0;
+   left: 0;
+   background-color: #1976D2; /* Cor de fundo do menu mobile */
+   width: 100%;
+   z-index: 15; /* Garante que o menu fique acima do conteúdo principal */
+   padding: 20px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   overflow-y: auto;
+   height: auto;
+}
+
+.menu-mobile.aberto {
+   display: block;
+}
+
+.menu-mobile ul {
+   list-style: none;
+   padding: 0;
+   margin-top: 60px; /* Espaço abaixo do ícone do menu */
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.menu-mobile li {
+   padding: 15px 0;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu-mobile li:last-child {
+   border-bottom: none;
+}
+
+.menu-mobile a {
+   color: white;
+   text-decoration: none;
+   display: block;
+   padding: 10px 15px;
+   font-size: 1.2em;
+}
+
+.menu-mobile .botao-acao-mobile {
+   margin-top: 30px;
+   text-align: center;
+}
+
+.menu-mobile .botao-acao-mobile a {
+   background-color: #FFC107;
+   color: #333;
+   padding: 12px 25px;
+   border-radius: 5px;
+   text-decoration: none;
+   display: inline-block;
+   font-weight: bold;
+   font-size: 1em;
+}
+
+.menu-mobile .botao-acao-mobile a:hover {
+   background-color: #FFB300;
+}
+
+.card-professora {
+   
+   font-family: system-ui;
+   background-color: #EFF6FF;
+   max-width: 100%;
+   margin: 0 auto;
+   padding: 24px;
+   
+ }
+
+ .card-professora img {
+   object-position: center -20px; /* sobe 20px */
+   width: 240px;
+   height: 240px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 16px;
+   margin-top: auto;
+ }
+
+ .card-professora h2 {
+   margin: auto;
+   text-align: center;
+   font-size: 24px;
+   margin-bottom: 4px;
+ }
+
+ .card-professora h3 {
+   margin: auto;
+   text-align: center;
+   color: #4b5563;
+   font-size: 16px;
+   margin-top: 0;
+   margin-bottom: 12px;
+ }
+
+ .card-professora p {
+   margin: auto;
+   text-align: center;
+   color: #555;
+   font-size: 15px;
+   margin-bottom: 16px;
+ }
+
+ .card-professora .tags {
+   margin: auto;
+   text-align: center;
+   flex-wrap: wrap;
+   gap: 8px;
+   margin-bottom: 20px;
+ }
+
+ .card-professora .tags span {
+   flex-wrap: wrap;
+   background-color: #e0ecff;
+   color: #2563eb;
+   padding: 6px 12px;
+   border-radius: 20px;
+   font-size: 13px;
+ }
+
+ .card-professora .botao {
+   display: flex;
+   padding: 10px 20px;
+   background-color: #2563eb;
+   color: white;
+   text-decoration: none;
+   border-radius: 6px;
+   font-weight: bold;
+   justify-content: center;
+   margin: auto;
+   width: 30%;
+   
+ }
+
+ .card-professora .botao:hover {
+   background-color: #1e4fba;
+ }
+ .conteudo-professora{
+   padding: 50px;
+   border-radius: 20px;
+   background-color: rgb(255, 255, 255);
+   margin-bottom: 100px;
+ }
+ .conteudo-professora img{
+   padding: 20px;
+   display: flex;
+   margin: auto;
+   justify-content: center;
+ }
+
+ .footer-site {
+   font-family: system-ui;
+   background-color: #0f172a;
+   color: #ffffff;
+   padding: 40px 20px;
+   font-family: sans-serif;
+ }
+ 
+ .container {
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+ 
+ .footer-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+   gap: 30px;
+   margin-bottom: 30px;
+ }
+ 
+ .footer-col h3, .footer-col h4 {
+   font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 15px;
+ }
+ 
+ .footer-col p {
+   font-size: 14px;
+   line-height: 1.6;
+ }
+ 
+ .footer-col ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .footer-col ul li {
+   margin-bottom: 8px;
+ }
+ 
+ .footer-col ul li a {
+   text-decoration: none;
+   color: #cbd5e1;
+   font-size: 14px;
+ }
+ 
+ .footer-col ul li a:hover {
+   color: #ffffff;
+ }
+ 
+ .social-icons span {
+   display: inline-block;
+   background-color: #1e293b;
+   color: #cbd5e1;
+   border-radius: 20px;
+   padding: 6px 10px;
+   margin-right: 5px;
+   font-size: 14px;
+   margin-top: 10px;
+ }
+ 
+ .footer-bottom {
+   border-top: 1px solid #1e293b;
+   padding-top: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   font-size: 13px;
+   color: #94a3b8;
+ }
+ 
+ .footer-bottom .footer-links a {
+   margin: 0 10px;
+   color: #94a3b8;
+   text-decoration: none;
+   font-size: 13px;
+ }
+ 
+ .footer-bottom .footer-links a:hover {
+   color: #ffffff;
+ }
+ 
+ @media screen and (min-width: 768px) {
+   .footer-bottom {
+     flex-direction: row;
+     justify-content: space-between;
+   }
+ }
+ 
+
+
+
+
+
+
+
+ @media (max-width: 768px) {
+ 
+   .cabecalho .menu {
+       display: none;
+   }
+
+   .cabecalho .btn {
+       display: none;
+   }
+
+   .menu-hamburguer {
+       display: block;
+       position: absolute; /* Posiciona o ícone do menu */
+       top: 25px; /* Ajuste vertical conforme necessário */
+       right: 20px; /* Ajuste horizontal conforme necessário */
+   }
+
+   .cabecalho .logo {
+       /* Garante que o logo ainda ocupe seu espaço */
+       position: relative;
+       z-index: 10; /* Garante que o logo fique atrás do menu aberto */
+   }
+
+   .cabecalho .container {
+       position: relative; /* Cria um contexto para o posicionamento absoluto do logo e menu-hamburguer */
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .card-professora .botao{
+      display: flex;
+      padding: 10px 20px;
+      background-color: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      justify-content: center;
+      margin: auto; 
+      width: 80%;
+    }
+    .card-professora .tags {
+    display: grid;
+    }
+}
+.site  {
+   text-decoration: none;
+   list-style: none;
+   font-size: 1.6rem;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+}
+
+.site:hover{
+   color: #ff3300;
+   text-decoration: none;
+}
+
+.E-books{
+   font-size: 1.3rem;
+   flex-direction: column-reverse;
+   display: flex;
+   margin-top: 10px;
+   text-decoration: none;
+   align-items: center;
+   
+}
+
+.E-books:hover{
+   color: #ff3300;
+   text-decoration: none;
+}
+
+.css {
+   padding: 6px 15px;
+   border-radius: 20px;
+   background-color: #e0ecff;
+   
+   
+}
+
+.css:hover{
+   background-color: #cbd5e1;
+   color: #2563eb;
+   transition: background-color 0.5s ease;
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
